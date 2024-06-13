@@ -1,0 +1,336 @@
+
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: 0;
+font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #dddddd;
+    height: 100vh;
+}
+.interface{
+max-height: 1280px;
+margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600px ;
+    background-color: #5b85fa;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+h2.titulo{
+    color: #050505;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #a58c00;
+}
+
+ button:hover{
+    box-shadow: 0px 0px 8px #5b85fa71;
+    transform: scale(1.05);
+}
+/*ESTILO DO CABEÇALHO*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #a58c00;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #f7d205;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO TOPO DO SITE*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+
+}
+
+section.top-do-site .flex{
+align-items: center;
+justify-content: center;
+gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #050505 ;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span{
+color: #f7d205;
+}
+.topo-do-site .txt-topo-site p{
+    color: #050505;
+    margin: 20px 0;
+}
+
+.topo-do-site .img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/* ESTILO DAS ESPECIALIDADES*/
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades.flex{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    color: #000000;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #dddddd;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #05050541;
+}
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #f7d205;
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+/*ESTILO DO SOBRE ALUNO1*/
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #000000;
+
+}
+.sobre .txt-sobre h2{
+ font-size: 40px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color: #f7d205;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f7d205;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/*ESTILO DO SOBRE ALUNO2*/
+section.sobre2{
+    padding: 80px 4%;
+}
+
+section.sobre2 .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre2 .txt-sobre2{
+    color: #000000;
+
+}
+.sobre2 .txt-sobre2 h2{
+ font-size: 40px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+.sobre2 .txt-sobre2 h2 span{
+    color: #f7d205;
+    display: block;
+}
+.sobre2 .txt-sobre2 p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre2 .txt-sobre2 .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f7d205;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+/*ESTILO DO SOBRE ALUNO3*/
+section.sobre3{
+    padding: 80px 4%;
+}
+
+section.sobre3 .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre3 .txt-sobre3{
+    color: #000000;
+
+}
+.sobre3 .txt-sobre3 h2{
+ font-size: 40px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+.sobre3 .txt-sobre3 h2 span{
+    color: #f7d205;
+    display: block;
+}
+.sobre3 .txt-sobre3 p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre3 .txt-sobre3 .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f7d205;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/*ESTILO DO SOBRE ALUNO 4*/
+section.sobre4{
+    padding: 80px 4%;
+}
+
+section.sobre4 .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre4 .txt-sobre4{
+    color: #000000;
+
+}
+.sobre4 .txt-sobre4 h2{
+ font-size: 40px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+.sobre4 .txt-sobre4 h2 span{
+    color: #f7d205;
+    display: block;
+}
+.sobre4 .txt-sobre4 p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre4 .txt-sobre4 .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f7d205;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+/*ESTILO DO SOBRE ALUNO 5*/
+section.sobre5{
+    padding: 80px 4%;
+}
+
+section.sobre5 .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre5 .txt-sobre5{
+    color: #000000;
+
+}
+.sobre5 .txt-sobre5 h2{
+ font-size: 40px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+.sobre5 .txt-sobre5 h2 span{
+    color: #f7d205;
+    display: block;
+}
+.sobre5 .txt-sobre5 p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre5 .txt-sobre5 .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f7d205;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+
